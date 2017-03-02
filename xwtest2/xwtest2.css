@@ -1,0 +1,101 @@
+
+body{
+	background-color: #777799;
+	margin: 0;
+	padding:0;
+}
+
+header{
+	background-color: #454545;
+	height: 55px;
+}
+
+nav{
+	position: absolute;
+	top:5px;
+	right:30px;
+	display: inline;
+}
+
+nav li{
+	list-style: disc;
+	display: inline;
+	padding: 10px;
+}
+
+nav a:link ,nav a:hover, nav a:visited{
+	color: white;
+	list-style-type: disc;
+	text-decoration: none;
+}
+
+h3, p.author{
+	color: #666;
+}
+
+article, #picture, aside {
+	border: thin outset white;
+	margin: 12px 12px;
+	background-color: #bbffee;
+	padding: 20px;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td ,th{
+	border: 1px solid;
+}
+
+table th{
+	background-color: #777799;
+}
+
+#last{
+	background-color: #ccccff;
+}
+
+figure{
+	border: solid thin black;
+	padding: 20px;
+	background-color: #bee;
+	width: 540px;
+}
+
+div#tablecontainer{
+	display: table;
+	margin-right: 25%;
+}
+
+div.tablerow{
+	display:table-row;
+}
+
+div.tabled{
+	display: table-cell;
+}
+
+div.top{
+	vertical-align: top;
+}
+
+div.tablec{
+	text-align: right;
+	width: 450px;
+}
+
+#submit{
+	width: 100%;
+	background: #02f;
+	border: none;
+	padding: 5px;
+	margin-top: 15px;
+	color: white;
+}
+
+footer{
+	font-size: 80%;
+	text-align: center;
+}
