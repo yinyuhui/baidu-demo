@@ -19,6 +19,7 @@ body{
 	border: thin solid #999;
 	margin: 20px;
 	padding-bottom: 20px;
+	min-height: 510px;
 }
 
 header{
