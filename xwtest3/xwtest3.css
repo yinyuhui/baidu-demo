@@ -15,12 +15,18 @@ body{
 	margin: 0 auto 0px;
 }
 
+#container{
+	border: thin solid #999;
+	margin: 20px;
+	padding-bottom: 20px;
+}
+
 header{
 	background-color: #fdfbbd;
 	position: absolute;
 	width: 160px;
-	left: 20px;
-	top: 20px;
+	left: 40px;
+	top: 40px;
 	border: thin solid #999;
 	padding: 20px;
 }
@@ -66,8 +72,8 @@ main h2{
 aside{
 	background: #fdfbbd;
 	position: absolute;
-	top: 20px;
-	right: 20px;
+	top: 40px;
+	right: 40px;
 	width: 80px;
 	padding: 0 20px 0 20px;
 	border: thin solid #999;
